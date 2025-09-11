@@ -43,7 +43,7 @@ window.onscroll = () =>{
     
 }
 const textElement = document.getElementById("animated-text");
-const phrases = ["Python Developer","ML Engineer", "Data Analyst", "Software Developer"];
+const phrases = ["Software Engineer","Python Developer","Data Engineer","ML Engineer","Devops Engineer"];
 let currentPhraseIndex = 0;
 let currentCharIndex = 0;
 let isDeleting = false;
@@ -75,7 +75,8 @@ function typeAnimation() {
 }
 
 typeAnimation();
-const roles2 =["Python Developer","Machine Learning Engineer", "Data Analyst", "Software Developer"];
+const roles2 =["Software Engineer","Python Developer","Data Engineer","ML Engineer","Devops Engineer"];
+
 const textElement2 = document.getElementById("animated-text-2");
 let roleIndex2 = 0;
 let charIndex2 = 0;
